@@ -2,10 +2,10 @@
 <template>
   <div class="climateHack">
     <h1>{{ msg }}</h1>
-    <h4>Team Epsilon</h4>
+    <h4>AVERA</h4>
 
-    <p>Sample page</p>
-    <iframe width="560" height="315" src="https://public.tableau.com/views/MeasuringReactionsReactionAnalytics/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link&:embed=yes&:tabs=yes&:toolbar=yes"></iframe>
+    <p>Automated Vessel Emission and Route Analysis</p>
+    <iframe width="560" height="315" src="https://app.powerbi.com/groups/me/reports/add09b10-90d7-47ac-879a-d3e3f551bff5/ReportSection"></iframe>
   </div>
 </template>
 
