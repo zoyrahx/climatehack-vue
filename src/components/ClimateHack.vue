@@ -16,27 +16,7 @@ export default {
   name: 'ClimateHack',
   props: {
     msg: String
-  },
-  data() {
-    return {
-      data: [],
-    };
-  },
-  mounted(){
-    this.getData();
-  },
-  methods: {
-    async getData() {
-      try {
-        const response = await axios.get(
-          "http://localhost:8000/"
-        );
-        this.data = response.data;
-      } catch (error) {
-        console.log(error);
-      }
-    },
-  },
+  }
 }
 </script>
 
